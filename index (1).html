@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atanu Debgharia - Video Editor & Motion Graphics</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-nav">
+        <div class="site-nav__inner">
+            <div class="site-nav__bar">
+                <a href="#home" class="site-nav__brand">ATANU DEBGHARIA</a>
+
+                <button
+                    type="button"
+                    class="nav-hamburger"
+                    id="navHamburger"
+                    aria-label="Open menu"
+                    aria-expanded="false"
+                    aria-controls="primaryNav"
+                >
+                    <span class="nav-hamburger__line" aria-hidden="true"></span>
+                    <span class="nav-hamburger__line" aria-hidden="true"></span>
+                    <span class="nav-hamburger__line" aria-hidden="true"></span>
+                </button>
+            </div>
+
+            <nav class="site-nav__links" id="primaryNav" aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+
+                    <li class="nav-item tools-dropdown">
+                        <button type="button" class="nav-item__trigger" aria-expanded="false" aria-controls="tools-menu">Tools I Use</button>
+                        <div id="tools-menu" class="dropdown-card tools-menu" role="menu" aria-label="Tools I Use">
+                            <a href="#portfolio" class="dropdown-item" role="menuitem">
+                                <span class="tool-icon tool-icon--ps" aria-hidden="true">Ps</span>
+                                <span class="dropdown-item__content">
+                                    <span class="dropdown-item__title">Photoshop</span>
+                                    <span class="dropdown-item__text">For creative assets, matte painting, and high-converting thumbnails.</span>
+                                </span>
+                            </a>
+                            <a href="#portfolio" class="dropdown-item" role="menuitem">
+                                <span class="tool-icon tool-icon--ae" aria-hidden="true">Ae</span>
+                                <span class="dropdown-item__content">
+                                    <span class="dropdown-item__title">After Effects</span>
+                                    <span class="dropdown-item__text">For advanced motion graphics, VFX, and dynamic visual animations.</span>
+                                </span>
+                            </a>
+                            <a href="#portfolio" class="dropdown-item" role="menuitem">
+                                <span class="tool-icon tool-icon--dr" aria-hidden="true">DR</span>
+                                <span class="dropdown-item__content">
+                                    <span class="dropdown-item__title">DaVinci Resolve</span>
+                                    <span class="dropdown-item__text">For Hollywood-level color grading and precision tracking.</span>
+                                </span>
+                            </a>
+                            <a href="#portfolio" class="dropdown-item" role="menuitem">
+                                <span class="tool-icon tool-icon--pr" aria-hidden="true">Pr</span>
+                                <span class="dropdown-item__content">
+                                    <span class="dropdown-item__title">Premiere Pro</span>
+                                    <span class="dropdown-item__text">For seamless multi-cam syncing and efficient timeline editing.</span>
+                                </span>
+                            </a>
+                            <a href="#portfolio" class="dropdown-item" role="menuitem">
+                                <span class="tool-icon tool-icon--cc" aria-hidden="true">CC</span>
+                                <span class="dropdown-item__content">
+                                    <span class="dropdown-item__title">CapCut</span>
+                                    <span class="dropdown-item__text">For fast-paced short-form reels and TikTok content optimized for retention.</span>
+                                </span>
+                            </a>
+                            <a href="#portfolio" class="dropdown-item" role="menuitem">
+                                <span class="tool-icon tool-icon--am" aria-hidden="true">AM</span>
+                                <span class="dropdown-item__content">
+                                    <span class="dropdown-item__title">Alight Motion</span>
+                                    <span class="dropdown-item__text">For fluid, keyframed motion graphics and quick mobile edits.</span>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item socials-dropdown">
+                        <button type="button" class="nav-item__trigger" aria-expanded="false" aria-controls="socials-menu">Socials</button>
+                        <div id="socials-menu" class="dropdown-card socials-menu" role="menu" aria-label="Social links">
+                            <a href="https://www.instagram.com/atanu_debgharia?igsh=NzFocnFiMG1kc2Vj" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram" role="menuitem">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm4.5 3.25A4.25 4.25 0 1 1 7.75 11.5 4.25 4.25 0 0 1 12 7.25Zm0 2A2.25 2.25 0 1 0 14.25 11.5 2.25 2.25 0 0 0 12 9.25Zm5.25-2.5a1 1 0 1 1-1 1 1 1 0 0 1 1-1Z"/></svg>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/atanu-debgharia-003837260?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" role="menuitem">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 8.5A1.56 1.56 0 1 1 6.94 5.38a1.56 1.56 0 0 1 0 3.12ZM5.5 9.75h2.88V18H5.5Zm4.63 0h2.76v1.13h.04c.38-.72 1.32-1.48 2.72-1.48 2.91 0 3.45 1.92 3.45 4.41V18h-2.88v-7.13c0-1.7-.03-3.89-2.37-3.89-2.38 0-2.74 1.86-2.74 3.77V18H10.13Z"/></svg>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://youtube.com/@ad_editz312?si=9ZdCt9KiFDelP9Cx" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="YouTube" role="menuitem">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.58 7.19a2.5 2.5 0 0 0-1.76-1.77C18.25 5 12 5 12 5s-6.25 0-7.82.42A2.5 2.5 0 0 0 2.42 7.19 26.1 26.1 0 0 0 2 12a26.1 26.1 0 0 0 .42 4.81 2.5 2.5 0 0 0 1.76 1.77C5.75 19 12 19 12 19s6.25 0 7.82-.42a2.5 2.5 0 0 0 1.76-1.77A26.1 26.1 0 0 0 22 12a26.1 26.1 0 0 0-.42-4.81ZM10 15.5v-7l6 3.5-6 3.5Z"/></svg>
+                                <span>YouTube</span>
+                            </a>
+                            <a href="https://www.facebook.com/share/1Bx6eXw6pM/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook" role="menuitem">
+                                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 20v-7h2.34l.35-2.7H13.5V3.91c0-.78.22-1.31 1.33-1.31h1.42V.14A19.2 19.2 0 0 0 14.2 0c-2.05 0-3.45 1.25-3.45 3.54v1.76H8.4V8.3h2.35v7h2.75Z"/></svg>
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item nav-item--theme">
+                        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode">
+                            <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+                                <circle cx="12" cy="12" r="4"/>
+                                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+                            </svg>
+                            <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5Z"/>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-section" id="home">
+        <video autoplay muted loop class="hero-video" playsinline>
+            <source src="" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-header">
+            <div class="dp-box">
+                <img src="./assets/dp.jpg" alt="Profile picture of Atanu Debgharia" id="profilePic">
+            </div>
+            <div class="hero-badge">Available for premium video projects</div>
+            <h1>Atanu Debgharia</h1>
+            <p class="header-subtitle">Professional Video Editor & Motion Graphics Designer</p>
+            <p class="header-experience">4+ Years of Creative Excellence</p>
+            <div class="hero-actions">
+                <a href="#portfolio" class="hero-btn hero-btn-primary">View My Work</a>
+                <a href="#contact" class="hero-btn hero-btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm <strong>Atanu Debgharia</strong>, a creative professional with <strong>4 years of experience</strong> in the video production and design industry. I specialize in bringing ideas to life through compelling visuals and seamless editing.</p>
+            <p>My passion lies in creating engaging content that tells stories and captivates audiences. Whether it's enhancing footage through color grading, crafting dynamic motion graphics, or editing videos that flow perfectly, I bring technical expertise and creative vision to every project.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">🎬</div>
+                    <h3>Video Editing</h3>
+                    <p>Professional editing with precision and creativity</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon">✨</div>
+                    <h3>Motion Graphics</h3>
+                    <p>Dynamic animations and visual effects</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Graphics Design</h3>
+                    <p>Creative visual design and branding</p>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon">🌈</div>
+                    <h3>Color Grading</h3>
+                    <p>Professional color correction and grading</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="section-heading">
+                <p class="section-eyebrow">Featured Styles</p>
+                <h2>Selected Work by Direction</h2>
+            </div>
+            <div class="portfolio-grid">
+                <article class="portfolio-card portfolio-card--motion">
+                    <div class="portfolio-card__icon">⚡</div>
+                    <h3>Motion Graphics &amp; VFX</h3>
+                    <p>Bold animated identities, cinematic transitions, and polished visual effects designed to make every frame feel premium.</p>
+                </article>
+                <article class="portfolio-card portfolio-card--cinematic">
+                    <div class="portfolio-card__icon">🎞️</div>
+                    <h3>Cinematic &amp; Color Grading</h3>
+                    <p>Film-like storytelling, rich tonal contrast, and clean grading workflows crafted for immersive visual impact.</p>
+                </article>
+                <article class="portfolio-card portfolio-card--creator">
+                    <div class="portfolio-card__icon">📱</div>
+                    <h3>Creator Content &amp; Short-form</h3>
+                    <p>High-retention reels, TikTok edits, and social-first visuals tuned for rapid audience engagement.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-form">
+                <div class="success-message" id="successMessage">
+                    ✓ Thank you! Your message has been sent successfully.
+                </div>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Atanu Debgharia. All rights reserved. | Video Editor & Motion Graphics Designer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
